@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RestArtuz-Full-Source">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/backend/static/RestArtuz-Full-Source.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

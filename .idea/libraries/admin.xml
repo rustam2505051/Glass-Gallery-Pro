@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="admin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/frontend/admin/Glass-Gallery-Pro.zip!/" />
+      <root url="jar://$PROJECT_DIR$/frontend/admin/RestArtuz-Full-Source.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

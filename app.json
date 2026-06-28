@@ -1,0 +1,81 @@
+{
+  "expo": {
+    "name": "RestArtuz",
+    "slug": "restartuz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "restartuz",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "backgroundColor": "#050505",
+    "jsEngine": "hermes",
+    "splash": {
+      "image": "./assets/images/splash-image.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#050505"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.restartuz.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Take photos for product catalog",
+        "NSPhotoLibraryUsageDescription": "Select images for products"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#050505"
+      },
+      "package": "com.restartuz.app",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.INTERNET",
+        "android.permission.ACCESS_NETWORK_STATE"
+      ],
+      "minSdkVersion": 24,
+      "targetSdkVersion": 35,
+      "compileSdkVersion": 35
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "backgroundColor": "#050505"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "EXPO_BACKEND_URL": "https://glass-gallery-pro.preview.emergentagent.com",
+      "firebaseApiKey": "AIzaSyAoaRVyi5zYP6VGNQI4rV0T2G_leaQAMqM",
+      "firebaseAuthDomain": "restartuz.firebaseapp.com",
+      "firebaseDatabaseUrl": "https://restartuz-default-rtdb.firebaseio.com",
+      "firebaseProjectId": "restartuz",
+      "firebaseStorageBucket": "restartuz.firebasestorage.app",
+      "firebaseMessagingSenderId": "3105202779",
+      "firebaseAppId": "1:3105202779:web:3c230e83ec7c20ea88d57e",
+      "firebaseMeasurementId": "G-29E7WDGH3M",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "c0c50368-b729-41b2-b378-4a525d56b4e5"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/8e8c0a4e-4e52-4b8e-9b5e-1a2b3c4d5e6f"
+    },
+    "owner": "rustam2505051"
+  }
+}

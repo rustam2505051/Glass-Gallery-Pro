@@ -1,36 +1,50 @@
-# RestArtuz - Premium Interior Materials Catalog
+# Welcome to your Expo app 👋
 
-## Production Build - June 2025
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-### Project Structure
+## Get started
+
+1. Install dependencies
+
+   ```bash
+   npm install
+   ```
+
+2. Start the app
+
+   ```bash
+   npx expo start
+   ```
+
+In the output, you'll find options to open the app in a
+
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+
+## Get a fresh project
+
+When you're ready, run:
+
+```bash
+npm run reset-project
 ```
-RestArtuz-Production/
-├── frontend/          # Expo React Native App + Admin Panel
-│   ├── app/           # Screens (tabs, admin, product, category)
-│   ├── src/           # Components, contexts, hooks, utils
-│   └── app.json       # Expo configuration
-├── backend/           # FastAPI Python Backend
-│   ├── server.py      # Main API server
-│   ├── ai_product_analyzer.py  # Gemini AI integration
-│   └── requirements.txt
-└── docs/              # Documentation
-```
 
-### Features
-- Premium luxury design (dark mode + gold accents)
-- Firebase integration (Auth, Firestore, Storage)
-- Gemini AI product description generation
-- Multi-language support (UZ, RU, EN)
-- Shopping cart with Telegram orders
-- Full Admin Panel
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-### Setup
-1. Install frontend: `cd frontend && yarn install`
-2. Install backend: `cd backend && pip install -r requirements.txt`
-3. Configure Firebase in `frontend/src/config/firebase.ts`
-4. Configure Gemini API in `backend/.env`
-5. Run: `npx expo start`
+## Learn more
 
-### Build
-- Android: `eas build -p android`
-- iOS: `eas build -p ios`
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.

@@ -54,7 +54,7 @@
       "typedRoutes": true
     },
     "extra": {
-      "EXPO_BACKEND_URL": "https://glass-gallery-pro.preview.emergentagent.com",
+      "EXPO_BACKEND_URL": "https://glass-gallery-pro.onrender.com",
       "firebaseApiKey": "AIzaSyAoaRVyi5zYP6VGNQI4rV0T2G_leaQAMqM",
       "firebaseAuthDomain": "restartuz.firebaseapp.com",
       "firebaseDatabaseUrl": "https://restartuz-default-rtdb.firebaseio.com",
